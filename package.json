@@ -1,0 +1,27 @@
+{
+    "name": "profilecard",
+    "version": "1.0.0",
+    "description": "frontendmentor profile card component",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charlesmiller0412/profileCard.git"
+    },
+    "author": "Charles Miller",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/charlesmiller0412/profileCard/issues"
+    },
+    "homepage": "https://github.com/charlesmiller0412/profileCard#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.5",
+        "bootstrap": "^5.2.0-beta1",
+        "jquery": "^3.6.0"
+    }
+}
