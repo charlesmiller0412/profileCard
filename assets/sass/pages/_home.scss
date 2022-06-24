@@ -24,22 +24,22 @@ main {
     // background bubbles
     &::before {
         content: "";
-        background-image: url("/assets/images/bg-pattern-top.svg");
+        background-image: url("../../assets/images/bg-pattern-top.svg");
         width: 1000px;
         height: 1000px;
         bottom: 100px;
-        right: 100px;
+        right: 150px;
         position: absolute;
         z-index: -1;
         background-repeat: no-repeat;
     }
     &::after {
         content: "";
-        background-image: url("/assets/images/bg-pattern-bottom.svg");
+        background-image: url("../../assets/images/bg-pattern-bottom.svg");
         width: 1000px;
         height: 1000px;
         top: 160px;
-        left: 100px;
+        left: 200px;
         position: absolute;
         z-index: -1;
         background-repeat: no-repeat;
