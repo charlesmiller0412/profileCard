@@ -8343,8 +8343,110 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: 0px; }
+
+body {
+  overflow: hidden;
   background-color: #19a2ae; }
 
-h1, .h1 {
-  font-size: 15px; }
+main {
+  place-content: center;
+  height: 100vh;
+  border-radius: 25px; }
+
+.main__wrapper {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
+  .main__wrapper::before {
+    content: "";
+    background-image: url("/assets/images/bg-pattern-top.svg");
+    width: 1000px;
+    height: 1000px;
+    bottom: 100px;
+    right: 100px;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat; }
+  .main__wrapper::after {
+    content: "";
+    background-image: url("/assets/images/bg-pattern-bottom.svg");
+    width: 1000px;
+    height: 1000px;
+    top: 160px;
+    left: 100px;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat; }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #2d3248; }
+  .attribution a {
+    color: #6a6f81; }
+
+.card {
+  width: 350px;
+  height: 375px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-image: url("/assets/images/bg-pattern-card.svg");
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
+  .card__header {
+    height: 140px; }
+  .card__bottom {
+    background-color: #fff;
+    z-index: -1;
+    height: 235px; }
+    .card__bottom--text {
+      margin-top: 72px; }
+      .card__bottom--text-name {
+        color: #6a6f81;
+        margin-bottom: 8px; }
+        .card__bottom--text-name span {
+          color: #2d3248;
+          font-weight: 700;
+          padding-right: 8px; }
+      .card__bottom--text-location {
+        color: #969696; }
+    .card__bottom hr {
+      color: #969696;
+      margin: 25px 0; }
+    .card__bottom--social {
+      margin-bottom: 25px; }
+      .card__bottom--social__stats {
+        text-align: center;
+        font-size: 10px;
+        color: #6a6f81; }
+        .card__bottom--social__stats span {
+          color: #2d3248;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 22px;
+          display: block; }
+  .card__img {
+    margin: -50px auto;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px; }
+    .card__img img {
+      border-radius: 50%; }
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 325px; } }
