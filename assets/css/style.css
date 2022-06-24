@@ -8423,7 +8423,8 @@ main {
           font-weight: 700;
           padding-right: 8px; }
       .card__bottom--text-location {
-        color: #969696; }
+        color: #969696;
+        font-size: 14px; }
     .card__bottom hr {
       color: #969696;
       margin: 25px 0; }
